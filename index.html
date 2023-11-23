@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogFit_강아지전문훈련기관</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="icon" href="./img/DogFit_logo.png">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+                <h1 class="logo"><a href="#">logo</a></h1>
+                <ul class="gnb clearfix">
+                    <li>
+                        <a href="#">독핏소개</a>
+                        <ul class="depth2">
+                            <li><a href="#">위치</a></li>
+                            <li><a href="#">CIBI</a></li>
+                            <li><a href="#">훈련사</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">프로그램</a>
+                        <ul class="depth2">
+                            <li><a href="#">재활훈련</a></li>
+                            <li><a href="#">산책훈련</a></li>
+                            <li><a href="#">전문 트레이닝</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">스토어</a>
+                        <ul class="depth2">
+                            <li><a href="#">냠냠간식</a></li>
+                            <li><a href="#">훈련용품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                        <ul class="depth2">
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search clearfix">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">검색</a></li>
+                    </ul>
+                </div>
+        </header>
+        <div class="swiper swiper1">
+            <div class="swiper-wrapper wrapper1">
+                <div class="swiper-slide visual1">
+                    <div class="text contain980">
+                        <p>Fitness</p>
+                        <h2>together.</h2>
+                        <ul class="btn">
+                            <li><a href="#">start now ></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-slide visual2">
+                    <div class="text contain980">
+                        <p>아직 어린 우리아이는</p>
+                        <h2>Puppy class.</h2>
+                        <ul class="btn">
+                            <li><a href="#">start now ></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <script>
+            var swiper = new Swiper(".swiper1", {
+                loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script><!-- main_swiper -->
+        <section class="pro">
+            <div class="bg_circle">
+            </div>
+            <div class="bg2_circle">
+            </div>
+            <div class="program_int">
+                <h1 class="con1">program</h1>
+                <div class="swiper swiper2">
+                    <div class="swiper-wrapper wrapper2">
+                        <div class="swiper-slide box1 box">
+                                <div class="dim">
+                                    <span>이미지</span>
+                                </div>
+                                <a href="#" class="text2">
+                                    <h3>그룹수업</h3>
+                                    <p>친구들과 함께하며 배우는 강아지들의 세계! <br>우리아이 사회화가 걱정이라면...</p>
+                                </a>
+                        </div>
+                        <div class="swiper-slide box2 box">
+                                <div class="dim">
+                                    <span>이미지</span>
+                                </div>
+                                <a href="#" class="text2">
+                                    <h3>아쿠아 테라피</h3>
+                                    <p>수중재활로 강아지들의 다리 관절 튼튼!<br>견주님들과 함께하는 아쿠아테라피</p>
+                                </a>
+                        </div>
+                        <div class="swiper-slide box3 box">
+                                <div class="dim">
+                                    <span>이미지</span>
+                                </div>
+                                <a href="#" class="text2">
+                                    <h3>매너수업</h3>
+                                    <p>사회견으로 거듭나기 위한 우리 강아지의 매너 클래스</p>
+                                </a>
+                        </div>
+                        <div class="swiper-slide box4 box">
+                                <div class="dim">
+                                    <span>이미지</span>
+                                </div>
+                    
+                                <a href="#" class="text2">
+                                    <h3>전문 트레이닝</h3>
+                                    <p>강아지 전문 어질리티 프로그램으로 국가대표견으로 거듭나는 첫걸음!</p>
+                                </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>           
+            <script>
+                const swiper_box = new Swiper('.swiper2', {
+                    direction: 'horizontal',
+                    effect: "coverflow",
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: "auto",
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+                });
+
+            </script>
+
+        </section>
+        <div class="fit_ness contain980">
+
+            <div class="text3">
+                <h1>Fit!ness!</h1>
+                <p>독핏 서비스가 처음이라면</p>
+                <span class="btn2">more view > </span>
+            </div><!--- text3--->
+            <div class="con_wrap">
+                <div class="spaceVideo">
+                    <img src="./img/spaceVideo1.png" alt="" class="on">
+                    <img src="./img/spaceVideo2.png" alt="">
+                    <img src="./img/spaceVideo3.png" alt="">
+                    <img src="./img/spaceVideo4.png" alt="">
+                    <img src="./img/spaceVideo5.png" alt="">
+                    <img src="./img/spaceVideo6.png" alt="">
+                    <img src="./img/spaceVideo7.png" alt="">
+                    <img src="./img/spaceVideo8.png" alt="">
+                    <img src="./img/spaceVideo9.png" alt="">
+                </div><!-- spaceVideo -->
+                <div class="tab_wrap clearfix">
+                    <!-- on붙었을 때 활성화-->
+                    <button type="button" class="on">#수중운동</button>
+                    <button type="button">#산책매너수업</button>
+                    <button type="button">#스포츠 재활</button>
+                    <button type="button">#독피트니스</button>
+                    <button type="button">#교감마사지수업</button>
+                    <button type="button">#어질리티 수업</button>
+                    <button type="button">#견종데이</button>
+                    <button type="button">#퍼피클래스</button>
+                    <button type="button">#착한시민견 클래스</button>
+                </div><!--- tab_wrap -->
+            </div><!-- con_wrap --->
+        
+        </div>
+        <!-------- sns -------------->
+        <section class="sns">
+           <div class="sns_wrap">
+
+             <div class="txt_wrap">
+                 <h1>sns</h1>
+                 <p>최신프로그램을 빠르게 볼실 수 있어요!</p>
+                 <ul class="sns_logo clearfix">
+                     <li><a href="#"><img src="./img/logo_youtube2.png" onmouseover="this.src='./img/logo_youtube.png'" onmouseleave="this.src='./img/logo_youtube2.png'" alt="유튜브 비활성 버튼"></a></li>
+                     <li><a href="#"><img src="./img/logo_sns3.png" onmouseover="this.src='./img/logo_sns2.png'" onmouseleave="this.src='./img/logo_sns3.png'" alt="인스타 비활성 버튼">
+                     </a></li>
+                 </ul>
+             </div>
+             <div class="bx_wrap b1">
+                 <span></span>
+                 <a href="#">이미지</a>
+                 <div class="text4">
+                     <span><img src="./img/logo_youtube.png" alt="유튣브 활성화 버튼"></span>
+                     <h3>[아쿠아 재활]ep.1 똘이의 재활일기...</h3>
+                     <p>2023.04.30</p>
+                 </div>
+             </div>
+             <div class="bx_wrap b2">
+                <span></span>
+                <a href="#">이미지</a>
+                <div class="text4">
+                    <span><img src="./img/logo_sns.png" alt="인스타 활성화 버튼"></span>
+                    <span><img src="./img/logo_sns2.png" alt="인스타 활성화 버튼"></span>
+                    <h3>@dogfit.official</h3>
+                    <a href="#">독핏 프로그램 개설안내.....<br>우리아이 천재견으로 거듭나는 주사위던지기!</a>
+                    <p>2023.05.15</p>
+                </div>
+            </div>
+            <div class="bx_wrap b3">
+                <span></span>
+                <a href="#">이미지</a>
+                <div class="text4">
+                    <span><img src="./img/logo_sns.png" alt="인스타 활성화 버튼"></span>
+                    <span><img src="./img/logo_sns2.png" alt="인스타 활성화 버튼"></span>
+                    <h3>@dogfit.official</h3>
+                    <a href="#">우리 땅콩이가 유치원에 등록하고 다닌지 1일째 되는...</a>
+                    <p>2023.05.08</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--------------- 맞춤서비스 찾기 ---------->
+        <section class="mapServiceSection active clearfix">
+            <div class="titleWrap">
+                <div class="title">
+                    <div class="description">
+                        <h1 class="sectionName">반려견 Fitness 찾기</h1>
+                    </div><!-- description -->
+                    <div class="searchItem">
+                        <div class="searchBarWrap">
+                            <input id="storeFind" placeholder="검색어를 입력하세요" type="text" class="searchBar">
+                            <div class="iconWrap">
+                                <img class="searchBarBtn" src="./img/search.png" alt="돋보기 아이콘">
+                            </div>
+                        </div>
+                        <div class="tagWrap">
+                            <ul class="tags clearfix">
+                                <li class="tag"><a href="#" class="on"><h3>아쿠아테라피</h3></a></li>
+                                <li class="tag"><a href="#"><h3>재활치료</h3></a></li>
+                                <li class="tag"><a href="#"><h3>전문가 양성</h3></a></li>
+                                <li class="tag"><a href="#"><h3>강아지 마사지</h3></a></li>
+                                <li class="tag"><a href="#"><h3>비만견 치료</h3></a></li>
+                            </ul>
+                        </div>
+                    </div><!-- searchItem -->
+                </div><!-- title -->
+            </div><!-- titleWrap -->
+            <!-- animation -->
+            <div class="sectionBackground">
+                <img class="mapPaper" src="./img/mapPaper.png" alt="">
+                <img class="pin" src="./img/map.png" alt="">
+            </div><!-- sectionBackground -->
+        </section>
+        <!-- review부분 -->
+        <div class="review">
+            <div class="review_bg">
+                <span class="white"></span>
+                <img src="./img/review.jpg" alt="">
+            </div><!-- review_bg -->
+            <div class="text7 clearfix">
+                <p>"</p>
+                <p class="color">독핏</p>
+                <p>과 함께라면<br>반려견과 행복해요"</p>
+            </div><!-- text7 -->
+            <div class="swiper swiper4">
+                <div class="swiper-wrapper wrapper4">
+                    <div class="swiper-slide slide1">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide4">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide5">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide6">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide7">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide8">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                    <div class="swiper-slide slide8">
+                        <img src="./img/review1.png" alt="">
+                    </div>
+                </div><!-- swiper-wrapper -->
+            </div><!-- swiper swiper3 -->
+            <script>
+                  var swiper4 = new Swiper(".swiper4", {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                    loop:true,
+                    centeredSlides: true,
+                    autoplay: {
+                    delay: 800,
+                    disableOnInteraction: false,
+                    },   
+                    pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    },
+                });
+            </script><!-- script_slide 4-->
+        </div><!-- review -->
+        <!-- footer -->
+        <footer id="footer">
+            <div class="text_wrap contain980 clearfix">
+                
+                <ul class="text5 clearfix">
+                    <li>
+                        <h2 class="fm"><a href="#">Family Site ></a></h2><!-- 아이콘 바꿔주기 -->
+                    </li>
+                    <li>
+                        <h2>About</h2>
+                        <a href="#">연혁</a>
+                    </li>
+                    <li>
+                        <h2>Service</h2>
+                        <a href="#">프로그램</a>
+                        <a href="#">컨설팅</a>
+                    </li>
+                    <li>
+                        <h2>Advisors</h2>
+                        <a href="#">Bobbi Lyons</a>
+                        <a href="#">Rico Yamada</a>
+                        <a href="#">신사경 수의사</a>
+                    </li>
+                    <li>
+                        <h2>Partners</h2>
+                        <a href="#">국제 애니멀라이프 파트너</a>
+                        <a href="#">글로벌 반려견 재활 컨디셔닝 전문기구</a>
+                    </li>
+                </ul>
+                <img src="./img/DogFit_footer.png" alt="푸터 로고">
+            </div>
+            <div class="text_wrap2 contain980">
+                <ul class="top clearfix">
+                   <li><a href="#">(주)독핏코리아</a></li>
+                   <li><a href="#">대표 : 최승애</a></li>
+                   <li><a href="#">서울시 강남대로140길26 N234,B2</a></li>
+                   <li><a href="#">개인정보관리 책임자 : 서민혜</a></li>
+                   <li><a href="#">전화 : 02-3144-8723</a></li>
+                   <li><a href="#">이메일 : dogfit@naver.com</a></li>
+                </ul>
+                <ul class="bottom clearfix">
+                   <li><a href="#">사업자등록번호 : 892-88-01013</a></li>
+                   <li><a href="#">통신판매 : 제2022-서울강남-06520호</a></li>
+                   <li><a href="#">사업자정보확인</a></li> 
+                </ul>
+            </div>
+            <span class="line"></span>
+            <div class="text_last contain980">
+                <p class="l_ft">@2023.DogFit Korea All rights reserved.</p>
+                <ul class="r_ft clearfix">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">안전구매(에스크로)서비스 가맹점</a></li>
+                </ul>√
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
